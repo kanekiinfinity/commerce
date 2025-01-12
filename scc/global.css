@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Lato;
 }
 
 
@@ -23,3 +24,15 @@ ul {
     color: inherit;
 }
 
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
+.text-center {
+    align-items: center ;
+}
