@@ -224,6 +224,59 @@
     line-height: 59.8px;
 }
 
+
+/* ------- Arrows ---------- */
+.titleSarrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrows a {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.arrows a:hover {
+    background-color: #17696A;
+}
+
+.arrows__banner, .arrows__banner__second {
+    position: absolute;
+}
+
+.arrows__banner--hover, .arrows__banner--hover__second {
+    display: inline;
+    position: absolute;
+    visibility: hidden;
+}
+
+.arrows a:hover .arrows__banner--hover{
+    visibility: visible;
+}
+
+.arrows a:hover .arrows__banner--hover__second{
+    visibility: visible;
+}
+
+.arrows a:hover .arrows__banner {
+    visibility: hidden;
+}
+
+.arrows__banner--hover__second {
+    rotate: 180deg;
+}
+
+.arrows__banner__second{
+    rotate: 180deg;
+}
+
 .sale__up {
     gap: 30px;
     display: flex;
