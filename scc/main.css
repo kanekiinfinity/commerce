@@ -1,5 +1,8 @@
 @import url("../scc/font.css");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 @import url("../scc/global.css");
 
 
@@ -215,7 +218,11 @@
     /* width: 100%; */
     height: 800px;
     background-clip: 1;
+<<<<<<< HEAD
 =======
+=======
+}
+>>>>>>> master
 
 /* --------- Index Footer --------- */
 .saLe__up__title {
@@ -635,5 +642,8 @@
 
 .for__updates__banner{
     margin-top: 65px;
+<<<<<<< HEAD
 >>>>>>> 15f95b9a249f980caece1a315fe651fe216b1984
+=======
+>>>>>>> master
 }
