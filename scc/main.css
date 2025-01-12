@@ -620,18 +620,92 @@
     line-height: 25.6px;
 }
 
-.agree__label{
+.agree__label {
     gap: 12px;
     display: flex;
     margin-top: 24px;
 }
 
-.agree__checkbox{
+.agree__checkbox {
     width: 16px;
     height: 16px;
     border-radius: 10px;
 }
 
-.for__updates__banner{
+.for__updates__banner {
     margin-top: 65px;
+}
+
+.index__footer__bg-c {
+    background-color: #1E212C;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.index__footer {
+    gap: 150px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.help,
+.shop {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    line-height: 25.6px;
+}
+
+.index__footer__list {
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 25.6px;
+}
+
+.kantacs {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.get__in__touch__title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 25.6px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.social__network {
+    gap: 12px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.enjoy__title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 25.6px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+.deep__end{
+    padding: 24px 0 20px 0;
+    background-color: #1E212C;
+}
+
+.deep__end__item{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
 }
