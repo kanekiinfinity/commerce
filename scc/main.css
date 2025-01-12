@@ -1,4 +1,5 @@
 @import url("../scc/font.css");
+<<<<<<< HEAD
 @import url("../scc/global.css");
 
 
@@ -214,4 +215,425 @@
     /* width: 100%; */
     height: 800px;
     background-clip: 1;
+=======
+
+/* --------- Index Footer --------- */
+.saLe__up__title {
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 59.8px;
+}
+
+.sale__up {
+    gap: 30px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.assement__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assement {
+    width: 390px;
+    height: 440px;
+    display: flex;
+    padding: 16px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.assement__item span {
+    color: #fff;
+    width: 54px;
+    height: 28px;
+    padding: 1px 8px;
+    border-radius: 4px;
+    background: #FF4242;
+}
+
+.sale__up__card {
+    width: 390px;
+    height: 538px;
+}
+
+.sale__up__card__image {
+    width: 390px;
+    height: 440px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-color: #E5E8ED;
+}
+
+.sale__up__card__banner {
+    position: absolute;
+}
+
+.sale__up__like {
+    width: 32px;
+    height: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    margin-left: 326px;
+    border-radius: 50%;
+}
+
+.sale__up__cost {
+    gap: 12px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.sale__up__button {
+    border: 1px;
+    width: 234px;
+    height: 52px;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #17696A;
+    margin-top: 80px;
+    padding: 0px 40px;
+    font-family: Lato;
+    line-height: 52px;
+    margin-left: auto;
+    border-radius: 4px;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #17696A;
+}
+
+.enjoy {
+    color: #fff;
+    height: 300px;
+    margin-top: 150px;
+    background-color: #1E212C;
+}
+
+.enjoy__paragraf {
+    width: 600px;
+    height: 84px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 60px;
+    font-family: Lato;
+    margin-bottom: 48px;
+    line-height: 41.6px;
+}
+
+.enjoy .container {
+    gap: 168px;
+    display: flex;
+}
+
+.enjoy__banner {
+    width: 490px;
+    height: 330px;
+    margin-top: -30px;
+}
+
+.stores {
+    gap: 24px;
+    display: flex;
+}
+
+.services {
+    gap: 45px;
+    display: flex;
+    margin-top: 120px;
+}
+
+.services__card:first-child {
+    margin-left: 180px;
+}
+
+.services__card {
+    width: 240px;
+    height: 136px;
+}
+
+.services__card__banner {
+    margin-left: 96px;
+}
+
+.services__card__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    line-height: 30px;
+    font-family: Lato;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.services__card__paragraf {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787A80;
+    font-family: Lato;
+    text-align: center;
+    line-height: 25.6px;
+}
+
+.insta__blog__button {
+    border: 1px;
+    width: 242px;
+    height: 52px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #17696A;
+    margin-top: 60px;
+    padding: 0px 40px;
+    font-family: Lato;
+    line-height: 52px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #17696A;
+}
+
+.insta__blog {
+    gap: 30px;
+    height: 260px;
+    display: flex;
+    margin-top: 180px;
+}
+
+.insta__blog__content span {
+    font-size: 16px;
+    color: #1E212C;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.insta__blog__content h2 {
+    color: #1E212C;
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 59.8px;
+}
+
+.insta__blog__content {
+    width: 390px;
+    height: 260px;
+}
+
+.insta__blog__image {
+    gap: 15px;
+    display: flex;
+}
+
+.insta__blog__image img {
+    width: 260px;
+    height: 260px;
+}
+
+.fashion__blog {
+    margin-top: 180px;
+}
+
+.fashion__blog__cards {
+    gap: 30px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.titleSbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleSbutton__button {
+    width: 100%;
+    height: 44px;
+    max-width: 150px;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    color: #17696A;
+    padding: 0px 40px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #17696A;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+}
+
+.fashion__blog__card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -4px #1E212C08;
+    box-shadow: 0px 12px 10px -6px #9A9CA50A;
+    box-shadow: 0px 30px 24px -10px #9A9CA50D;
+    box-shadow: 0px 80px 80px -20px #9A9CA514;
+}
+
+.fashion__blog__card__content h2 {
+    color: #1E212C;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    line-height: 30px;
+    font-family: Lato;
+    margin-bottom: 12px;
+}
+
+.fashion__blog__card__content h2:hover {
+    color: #17696A;
+}
+
+.fashion__blog__card__content span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #787A80;
+    line-height: 21px;
+    font-family: Lato;
+}
+
+.fashion__blog__card__content p {
+    font-size: 16px;
+    color: #424551;
+    margin-top: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 25.6px;
+}
+
+.fashion__blog__card__content {
+    margin-left: 24px;
+}
+
+.fashion__content__spans {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.fashion__content__spans__last__child {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.companys {
+    height: 64px;
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.companys img {
+    width: 120px;
+    height: 64px;
+}
+
+.subscribe__for__updates {
+    height: 546px;
+    background: #F4F5F6;
+}
+
+.subscribe__for__updates__item {
+    gap: 274px;
+    display: flex;
+}
+
+.for__updates__button {
+    width: 154px;
+    height: 52px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 52px;
+    margin-top: 26px;
+    letter-spacing: 0.5px;
+    background: #17696A;
+    padding: 0px 40px 0px 40px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.subscribe__input {
+    border: 1px;
+    width: 495px;
+    height: 52px;
+    outline: none;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    padding-top: 13px;
+    padding-left: 16px;
+    line-height: 25.6px;
+    padding-bottom: 13px;
+    border-radius: 4px 0 0 4px;
+}
+
+.for__updates__form {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.subscribe__for__updates__title {
+    font-size: 46px;
+    font-weight: 900;
+    color: #1E212C;
+    margin-top: 100px;
+    font-family: Lato;
+    line-height: 59.8px;
+}
+
+.subscribe__for__updates__poragraf {
+    font-size: 20px;
+    font-weight: 400;
+    color: #787A80;
+    margin-top: 24px;
+    font-family: Lato;
+    line-height: 30px;
+}
+
+.for__updates__form p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #424551;
+    font-family: Lato;
+    line-height: 25.6px;
+}
+
+.agree__label{
+    gap: 12px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.agree__checkbox{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.for__updates__banner{
+    margin-top: 65px;
+>>>>>>> 15f95b9a249f980caece1a315fe651fe216b1984
 }
