@@ -1,8 +1,4 @@
 @import url("../scc/font.css");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
 @import url("../scc/global.css");
 
 
@@ -175,7 +171,7 @@
 .advertisement-2__text {
     font-size: 12px;
     font-weight: 900;
-    
+
     color: #fff;
 }
 
@@ -201,28 +197,216 @@
 
 
 .header-bg {
-    display: flex;
+    max-width: 1920px;
     margin-left: auto;
+    margin-right: auto;
+
     width: 100%;
-    margin-right: auto; 
-    /* background-position: center; */
-    background-size: auto;
-    background-image: url("/images/header/head-bg.png");
+    height: 800px;
+    background-image: url("../images/header/head-bg.png");
     background-repeat: no-repeat;
 }
 
+
+
+
 .header {
-    display: flex;
+    padding-top: 140px;
+}
+
+
+
+.header__collection {
+    color: #1E212C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+
+}
+
+.header-title {
+    padding-top: 12px;
+    padding-bottom: 60px;
+    color: #1E212C;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 93.6px;
+
+}
+
+
+.header-links {
+    gap: 24px;
+}
+
+
+.header-links__sale {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 40px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    transition: 300ms;
+    font-weight: 700;
+    line-height: 52px;
+
+}
+
+
+.header-links__mens {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 0 40px;
+    border: 1px solid #17696A;
+    font-weight: 700;
+    color: #17696A;
+    transition: 300ms;
+    line-height: 52px;
+
+}
+
+.header-links__sale:hover {
+    background: #17696A;
+    color: white;
+}
+
+
+
+.header-links__mens:hover {
+    background: #17696A;
+    color: white;
+}
+
+.header-bottom {
+    margin-top: -70px;
+    padding-bottom: 180px;
+}
+
+.header-bottom__text {
+    text-align: center;
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #424551;
+}
+
+
+
+
+/* ////////////////// new-arrials /////////////// */
+
+
+.arrials {
+    max-width: 1860px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* width: 100%; */
-    height: 800px;
-    background-clip: 1;
-<<<<<<< HEAD
-=======
-=======
 }
->>>>>>> master
+
+.arrials-title {
+    display: flex;
+    justify-content: center;
+    color: #1E212C;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.arrials-text {
+    color: #787A80;
+    padding-top: 24px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 27px;
+
+}
+
+.arrials-link {
+    color: #17696A;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 27px;
+    text-decoration-line: underline;
+}
+
+.arrials-boxes {
+    padding-top: 60px;
+}
+
+
+.arrials-relative {
+    position: relative;
+}
+
+.arrials-absolute {
+    top: 0px;
+    position: absolute;
+}
+
+.star-gray {
+    border-color: #424551;
+}
+
+.arrials-stars {
+    padding-top: 16px;
+    padding-left: 191px;
+}
+
+.arrials-heart {
+    padding-top: 242px;
+    padding-left: 237px;
+}
+
+.arrials-heart-img {
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: white;
+}
+
+.arrials-box-title {
+    color: #424551;
+    padding-top: 16px;
+    padding-left: 16px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.arrials-box-price {
+    color: #1E212C;
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+.gray-border {
+    display: flex;
+    padding-top: 96px;
+    justify-content: center;
+    gap: 12px;
+    
+}
+
+
+.gray-border-on {
+    width: 30px;
+    border-radius: 8px;
+    border: 3px solid #424551;
+}
+
+.gray-border-in {
+    width: 30px;
+    border-radius: 8px;
+    border: 3px solid #B3B7BC;
+}
+
+
 
 /* --------- Index Footer --------- */
 .saLe__up__title {
@@ -628,22 +812,19 @@
     line-height: 25.6px;
 }
 
-.agree__label{
+.agree__label {
     gap: 12px;
     display: flex;
     margin-top: 24px;
 }
 
-.agree__checkbox{
+.agree__checkbox {
     width: 16px;
     height: 16px;
     border-radius: 10px;
 }
 
-.for__updates__banner{
+.for__updates__banner {
     margin-top: 65px;
-<<<<<<< HEAD
->>>>>>> 15f95b9a249f980caece1a315fe651fe216b1984
-=======
->>>>>>> master
+    <<<<<<< HEAD>>>>>>>15f95b9a249f980caece1a315fe651fe216b1984=======>>>>>>>master
 }
