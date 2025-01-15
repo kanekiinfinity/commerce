@@ -390,7 +390,7 @@
     padding-top: 96px;
     justify-content: center;
     gap: 12px;
-    
+
 }
 
 
@@ -405,6 +405,161 @@
     border-radius: 8px;
     border: 3px solid #B3B7BC;
 }
+
+
+
+
+/*////////////// after-arrials /////////// */
+
+
+.after-arrials {
+    max-width: 1860px;
+    width: 100%;
+    padding-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.after-arrials-boxes {
+    gap: 16px;
+}
+
+.after-arrials-boxes:nth-child(2) {
+    padding-top: 16px;
+}
+
+.after-arrials-box {
+    position: relative;
+}
+
+
+
+.after-arrials-absolute {
+    top: 0;
+    position: absolute;
+    padding-left: 60px;
+}
+
+.after-arrials-absolute-text {
+    padding-top: 60px;
+    font-size: 14px;
+    color: #1E212C;
+    font-weight: 700;
+
+}
+
+.after-arrials-absolute-sale:nth-child(2) {
+    width: 362px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 41.6px;
+
+}
+
+
+.after-arrials-absolute-sale {
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    font-weight: 900;
+
+}
+
+
+.after-arrials-absolute-button {
+    border: 1px solid #17696A;
+    border-radius: 4px;
+    color: #17696A;
+    padding: 10px 32px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.after-arrials-absolute-button:nth-child(3) {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.after-arrials-absolute-text2 {
+    color: #1E212C;
+    padding-top: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1px;
+
+}
+
+
+.after-arrials-box-time {
+    gap: 24px;
+    padding-top: 12px;
+}
+
+
+.after-arrials-box-time__number {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.after-arrials-box-time__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #1E212C;
+
+}
+
+.email-bar-title {
+    color: #424551;
+    font-size: 14px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.email-input {
+    padding: 11px 96px 12px 16px;
+    outline: none;
+    border: 1px solid #D7DADD;
+    border-radius: 4px 0 0 4px;
+}
+
+.email-input::placeholder {
+    color: #9A9CA5;
+}
+
+.confirm-button {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    line-height: 29px;
+    margin-left: -3px;
+    border-radius: 0 4px 4px 0;
+    background: #17696A;
+    color: white;
+}
+
+
+.email-bar-bottom {
+    padding-top: 20px;
+    width: 360px;
+    color: #424551;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+
+}
+
+
+
+
 
 
 
