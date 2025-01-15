@@ -679,6 +679,59 @@
     line-height: 59.8px;
 }
 
+
+/* ------- Arrows ---------- */
+.titleSarrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrows a {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.arrows a:hover {
+    background-color: #17696A;
+}
+
+.arrows__banner, .arrows__banner__second {
+    position: absolute;
+}
+
+.arrows__banner--hover, .arrows__banner--hover__second {
+    display: inline;
+    position: absolute;
+    visibility: hidden;
+}
+
+.arrows a:hover .arrows__banner--hover{
+    visibility: visible;
+}
+
+.arrows a:hover .arrows__banner--hover__second{
+    visibility: visible;
+}
+
+.arrows a:hover .arrows__banner {
+    visibility: hidden;
+}
+
+.arrows__banner--hover__second {
+    rotate: 180deg;
+}
+
+.arrows__banner__second{
+    rotate: 180deg;
+}
+
 .sale__up {
     gap: 30px;
     display: flex;
@@ -1089,5 +1142,80 @@
 
 .for__updates__banner {
     margin-top: 65px;
-    <<<<<<< HEAD>>>>>>>15f95b9a249f980caece1a315fe651fe216b1984=======>>>>>>>master
+
+}
+
+.index__footer__bg-c {
+    background-color: #1E212C;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.index__footer {
+    gap: 150px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.help,
+.shop {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    line-height: 25.6px;
+}
+
+.index__footer__list {
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 25.6px;
+}
+
+.kantacs {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.get__in__touch__title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 25.6px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.social__network {
+    gap: 12px;
+    display: flex;
+    margin-top: 24px;
+}
+
+.enjoy__title {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    line-height: 25.6px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+.deep__end{
+    padding: 24px 0 20px 0;
+    background-color: #1E212C;
+}
+
+.deep__end__item{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+
 }
