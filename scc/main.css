@@ -596,12 +596,85 @@
 
 
 
+/* ////////////// tranding now //////////// */
+
+.tranding-bg {
+    margin-top: 180px;
+    background: #E5E8ED;
+}
+
+.tranding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.tranding-title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 59.8px;
+
+}
+
+.tranding-arrows {
+    gap: 15px;
+}
+
+.tranding-arrows-white {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17696A;
+}
+
+.tranding-boxes {
+    padding-top: 60px;
+    padding-bottom: 96px;
+}
+
+
+.tranding-stars {
+    padding-top: 16px;
+    padding-left: 296px;
+}
+
+.tranding-heart {
+    padding-top: 362px;
+    padding-left: 342px;
+}
+
+
+.tranding-link {
+    /* margin: 0 80px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.tranding-link-in {
+    padding: 5px 32px;
+    color: #17696A;
+    font-size: 16px;
+    border: 1px solid #17696A;
+    border-radius: 4px;
+    font-weight: 700;
+    /* text-align: center; */
+    line-height: 52px;
+    letter-spacing: 0.5px;
+}
+
+
 
 
 /* --------- Index Footer --------- */
-.saLe__up__title {
+.sale__up__title {
     font-family: Lato;
     font-size: 46px;
+    padding-top: 100px;
     font-weight: 900;
     line-height: 59.8px;
 }
